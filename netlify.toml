@@ -5,7 +5,7 @@
 [build.environment]
   NODE_VERSION = "20"
 [build]
-  command = "npm install && npm run build"
+  command = ""
   commandOrigin= "config"
   functions = "functions"
   publish= "/opt/build/repo"
