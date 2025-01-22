@@ -4,10 +4,3 @@
   status = 200
 [build.environment]
   NODE_VERSION = "20"
-[build]
-  command = ""
-  commandOrigin= "config"
-  functions = "functions"
-  publish= "/opt/build/repo"
-  publishOrigin= "ui"
-  functionsDirectory= "/opt/build/repo/functions"
