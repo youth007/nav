@@ -5,6 +5,5 @@
 [build.environment]
   NODE_VERSION = "20"
 [build]
-  command = "CI='' npm run build"
-  publish = "/build"
-  base ="/"
+  command = "npm install && npm run build"
+  functions = "functions"
