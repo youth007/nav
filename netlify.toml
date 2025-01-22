@@ -6,10 +6,8 @@
   NODE_VERSION = "20"
 [build]
   command = "npm install && npm run build"
-  commandOrigin= config
+  commandOrigin= "config"”
   functions = "functions"
-  environment:
-     - NODE_VERSION = "20"
-  publish= /opt/build/repo
-  publishOrigin= ui
-  functionsDirectory= /opt/build/repo/functions
+  publish= "/opt/build/repo"
+  publishOrigin= "ui"
+  functionsDirectory= "/opt/build/repo/functions"
